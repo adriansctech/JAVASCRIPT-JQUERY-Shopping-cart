@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Carro de la compra con jQuery</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/black-tie/jquery-ui.css" />
+	<link rel="stylesheet" href="css/carro.css" media="screen" />
+	<link rel="stylesheet" href="css/custom.css" media="screen" />
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script> 
+	<script src="scripts/carro.js"></script>
+	<script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+
+</head>
+<body>
+	<div id="item_container">
+		<!--<div class="item" id="3DSNG">
+			<img src="img/items/3DSNG.jpg" alt="descripción 3DSNG"/>
+			<label class="title" title="Nintendo 3DS negro">Nintendo 3DS</label>
+			<label class="price">270,00 €</label>
+			<label class="stock">Stock 10</label>
+			<label class="stock">Stock 0</label>
+		</div>
+		<div class="item" id="ACERAX3950">
+			<img src="img/items/ACERAX3950.jpg" alt="descripción ACERAX3950"/>
+			<label class="title" title="Acer AX3950 I5-650 4GB 1TB W7HP">Acer AX3950</label>
+			<label class="price">410,00 €</label>
+			<label class="stock">Stock 10</label>
+		</div>
+		<div class="item" id="ARCLPMP32GBN">
+			<img src="img/items/ARCLPMP32GBN.jpg" alt="descripción ARCLPMP32GBN"/>
+			<label class="title" title="Archos Clipper MP3 2GB negro">Archos Clipper</label>
+			<label class="price">26,70 €</label>
+			<label class="stock">Stock 10</label>
+		</div>
+		<div class="item" id="BRAVIA2BX400">
+			<img src="img/items/BRAVIA2BX400.jpg" alt="descripción BRAVIA2BX400"/>
+			<label class="title" title="Sony Bravia 32IN FULLHD KDL-32BX400">Sony Bravia</label>
+			<label class="price">356,90 €</label>
+			<label class="stock">Stock 10</label>
+		</div>
+		<div class="item" id="KSTDT101G2">
+			<img src="img/items/KSTDT101G2.jpg" alt="descripción KSTDT101G2"/>
+			<label class="title" title="Kingston DataTraveler 16GB DT101G2 USB2.0 negro">Kingston 16GB</label>
+			<label class="price">19,20 €</label>
+			<label class="stock">Stock 10</label>
+		</div>-->
+		<div class="clear"></div>
+	</div>
+	<div id="cart_container">
+		<div id="cart_title">
+			<span>Carrito</span>
+			<div class="clear"></div>
+		</div>
+		<div id="cart_toolbar">
+			<div id="cart_items" class="back"></div>
+		</div>
+		<div id="navigate">
+			<div id="nav_left">
+				<button id="btn_comprar" title="Confirma la compra de los artículos">Comprar</button>
+				<button id="btn_prev" title="Desplaza el carrito hacia la izquierda">&lt;</button>
+				<button id="btn_next" title="Desplaza el carrito hacia la derecha">&gt;</button>
+				<button id="btn_clear" title="Vacia el carrito">Vaciar</button>
+			</div>
+			<div id="nav_right">
+				<span class="sptext">
+					<label>Compras </label><input id="citem" value="0" readonly title="Número de productos comprados"/>
+				</span>
+				<span class="sptext">
+					<label>Precio </label><input id="cprice" value="0 €" readonly  title="Precio total de los productos comprados"/>
+				</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>	
+</body>
+</html>
